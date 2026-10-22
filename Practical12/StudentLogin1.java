@@ -47,8 +47,8 @@ public class StudentLogin1 extends Applet
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/LoginDB",
-                "root", "your_password"
+                    "jdbc:mysql://localhost:3306/LoginDB",
+                    "root", "**********"
             );
         } catch (Exception e) {
             status.setText("Database connection failed");
@@ -68,7 +68,7 @@ public class StudentLogin1 extends Applet
 
             if (e.getSource() == insert) {
                 PreparedStatement ps = con.prepareStatement(
-                    "INSERT INTO Users(name,password) VALUES(?,?)");
+                        "INSERT INTO Users(name,password) VALUES(?,?)");
                 ps.setString(1, name);
                 ps.setString(2, password);
 
@@ -79,7 +79,7 @@ public class StudentLogin1 extends Applet
 
             else if (e.getSource() == view) {
                 PreparedStatement ps = con.prepareStatement(
-                    "SELECT name FROM Users WHERE name=?");
+                        "SELECT name FROM Users WHERE name=?");
                 ps.setString(1, name);
 
                 ResultSet rs = ps.executeQuery();
@@ -97,7 +97,7 @@ public class StudentLogin1 extends Applet
 
             else if (e.getSource() == update) {
                 PreparedStatement ps = con.prepareStatement(
-                    "UPDATE Users SET password=? WHERE name=?");
+                        "UPDATE Users SET password=? WHERE name=?");
                 ps.setString(1, password);
                 ps.setString(2, name);
 
@@ -105,19 +105,19 @@ public class StudentLogin1 extends Applet
                 ps.close();
 
                 status.setText(rows > 0 ?
-                    "Record updated" : "Record not found");
+                        "Record updated" : "Record not found");
             }
 
             else if (e.getSource() == delete) {
                 PreparedStatement ps = con.prepareStatement(
-                    "DELETE FROM Users WHERE name=?");
+                        "DELETE FROM Users WHERE name=?");
                 ps.setString(1, name);
 
                 int rows = ps.executeUpdate();
                 ps.close();
 
                 status.setText(rows > 0 ?
-                    "Record deleted" : "Record not found");
+                        "Record deleted" : "Record not found");
             }
 
         } catch (Exception ex) {
