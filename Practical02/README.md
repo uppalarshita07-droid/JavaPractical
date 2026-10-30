@@ -1,5 +1,5 @@
 # Practical02: String Animation Using Multithreading in Java
-
+Write a program to animate a string on Applet. Use the concept of Multithreading.
 
 ## Technologies Used
 - Java
@@ -51,4 +51,3 @@ The Java Applet successfully demonstrates string animation using multithreading 
 
 ## Sample Output
 <img width="1430" height="491" alt="image" src="https://github.com/user-attachments/assets/f4c20f9d-47ae-45f8-913a-29745bebe3f4" />
-
