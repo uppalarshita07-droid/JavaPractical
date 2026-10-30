@@ -33,3 +33,6 @@ java Practical01.Main
 
 ## Expected Result
 The program successfully multiplies two compatible matrices and displays their product. If the matrices are incompatible for multiplication, it displays a message indicating that multiplication is not possible.
+
+## Sample Output
+<img width="1430" height="546" alt="image" src="https://github.com/user-attachments/assets/5a6aa55d-2add-4b91-88eb-fb6ad9c5546d" />
