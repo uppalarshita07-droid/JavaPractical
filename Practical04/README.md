@@ -1,4 +1,4 @@
-# Practical: Client-Server Communication Using TCP in Java
+# Practical 04: Client-Server Communication Using TCP in Java
 Write a program to design a calculator using the AWT controls provided in Java.
 
 ## Technologies Used
