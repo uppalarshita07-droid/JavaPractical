@@ -1,4 +1,4 @@
-# Practical02: String Animation Using Multithreading in Java
+# Practical 02: String Animation Using Multithreading in Java
 Write a program to animate a string on Applet. Use the concept of Multithreading.
 
 ## Technologies Used
