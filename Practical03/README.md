@@ -1,4 +1,4 @@
-# Practical03: Calculator Using Java AWT
+# Practical 03: Calculator Using Java AWT
 Write a program to design a calculator using the AWT controls provided in Java.
 
 ## Technologies Used
