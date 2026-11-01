@@ -92,7 +92,7 @@ Create functions like multiply, addition and subtraction respectively. Invoke th
 <img width="468" height="93" alt="image" src="https://github.com/user-attachments/assets/9337e59c-01fe-4bdc-89d7-e93d2e375c15" />
 
 ### Client Console
-
+<img width="936" height="82" alt="image" src="https://github.com/user-attachments/assets/f2f9b0d2-f960-4b78-a726-8833824502d1" />
 
 ## Result
 The Java RMI calculator is successfully implemented, demonstrating remote method invocation between a client and server to perform arithmetic operations.
