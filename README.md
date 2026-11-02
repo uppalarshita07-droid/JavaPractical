@@ -1,3 +1,24 @@
+# Java Practical Portfolio
+
+**Name:** Arshita Uppal  
+**Program:** Bachelor of Technology (B.Tech CSE)  
+**Semester:** 3rd Semester  
+**Subject:** Object Oriented Programming with Java  
+
+## About This Repository
+
+This repository contains a collection of **11 Java practicals** developed as part of the Object Oriented Programming with Java course during my 3rd semester of B.Tech CSE.
+
+These practicals demonstrate the implementation of fundamental and advanced Java programming concepts, including object-oriented programming, GUI development, multithreading, networking, Remote Method Invocation (RMI), JavaBeans, and database connectivity using JDBC and MySQL.
+
+The objective of this repository is to document my practical learning, strengthen my programming skills, and gain hands-on experience in developing Java-based applications.
+
+Each practical is organised into a separate folder, with its corresponding source code and implementation.
+
+**Technologies Used:** Java, AWT, Swing, JDBC, MySQL, Java Applets and JavaBeans.
+
+**Total Practicals:** 11
+
 | Practical |	The Topic | Concepts | Used	Folder Link |
 |---|---|---|---|
 | Practical 01 | Matrix Multiplication |	2D Arrays, InputStreamReader, BufferedReader, Loops | https://github.com/uppalarshita07-droid/JavaPractical/tree/86d30cf84d42980c665cfe8c4f09f6e8d5552e1b/Practical01 |	
